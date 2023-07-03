@@ -38,6 +38,6 @@ In this section, we will take a look at Static Pods
 
    ![spvsds](../../images/spvsds.PNG)
   
-
+Static pods Could be viewed by API-SERVER but Can't be deleted or modified by apiServer
 #### K8s Reference Docs
 - https://kubernetes.io/docs/tasks/configure-pod-container/static-pod/
