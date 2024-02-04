@@ -101,3 +101,10 @@ In this section, we will talk about "Node Affinity" feature in kubernetes.
 #### K8s Reference Docs
 - https://kubernetes.io/docs/tasks/configure-pod-container/assign-pods-nodes-using-node-affinity/
 - https://kubernetes.io/blog/2017/03/advanced-scheduling-in-kubernetes/
+## MOEMEN Notes
+  - requiredDuringSchedulingIgnoredDuringExecution:
+means : The scheduler can't schedule the Pod unless the rule is met(REQUIRED).  if a pod is already scheduled on the right node then the node label is changed, then the pod will not get eveicted. this is ignored.
+
+  - preferredDuringSchedulingIgnoredDuringExecution
+means : The scheduler tries to find a node that meets the rule. If a matching node is not available, the scheduler still schedules the Pod.
+ 
