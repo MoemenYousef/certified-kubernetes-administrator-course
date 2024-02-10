@@ -23,3 +23,6 @@ In this section, we will take a look at OS upgrades.
   
 #### K8s Reference Docs
 - https://kubernetes.io/docs/tasks/administer-cluster/safely-drain-node/
+
+### Moemen 
+pod-eviction-timeout: After the NotReady state node exceeds a default time of five minutes, the eviction will be executed.
