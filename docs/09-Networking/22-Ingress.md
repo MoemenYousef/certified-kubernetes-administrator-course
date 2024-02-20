@@ -201,8 +201,12 @@ spec:
 ```
 
 
+## MOEMEN
+As we already discussed Ingress in our previous lecture. Here is an update.
 
+In this article, we will see what changes have been made in previous and current versions in Ingress.
 
+Like in apiVersion, serviceName and servicePort etc.
 
 
 #### References Docs
